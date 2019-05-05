@@ -1,6 +1,0 @@
-chr	percent
-chr1	30
-chr2	20
-chr3	10
-chr4	15
-chr5	25
