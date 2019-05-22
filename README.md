@@ -7,7 +7,7 @@ This is the repository for the Shiny application presented in "shinyPie: make pi
 
 #	Use shinyPie online
 
-shinyPie is deployed at http://127.0.0.1:5520/for online use.  
+shinyPie is deployed at http://150.109.59.144:3838/shinyPie/ for online use.  
 shinyPie is idle until you activate it by accessing the URLs.  
 So, it may take some time when you access this URL for the first time.   
 Once it was activated, shinyPie could be used smoothly and easily.
@@ -33,12 +33,15 @@ install.packages("shiny")
 install.packages("data.table")
 install.packages("shinythemes")
 install.packages("shinyBS")
-library(plotrix)
+install.packages("plotrix")
 ```
 
 **Step 3: Start the app**  
 
-Start an R session using RStudio 
+Start an R session using RStudioun these lines:  
+```
+shiny::runGitHub("SHINYPIE", "qiuyv")  
+``` 
 *****
 
 #	Deploy shinyPie on local or web Linux server
@@ -56,6 +59,7 @@ install.packages("shiny")
 install.packages("data.table")
 install.packages("shinythemes")
 install.packages("shinyBS")
+install.packages("plotrix")
 ```
 
 For more information, please check the following pages:  
