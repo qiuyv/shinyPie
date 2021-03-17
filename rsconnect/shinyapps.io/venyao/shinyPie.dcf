@@ -1,0 +1,12 @@
+name: shinyPie
+title: shinyPie
+username:
+account: venyao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3804890
+bundleId: 4356047
+url: https://venyao.shinyapps.io/shinyPie/
+when: 1615946285.23252
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,8 +1,5 @@
 
 
-library(shinythemes)
-library(shinyBS)
-
 shinyUI(
   navbarPage(
     title = "shinypie", 
